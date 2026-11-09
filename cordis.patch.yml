@@ -1,0 +1,3 @@
+- insert:
+    - id: codex-model-picker
+      name: 'dsh-codex-model-picker'

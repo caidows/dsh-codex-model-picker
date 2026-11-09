@@ -1,0 +1,30 @@
+{
+  "name": "dsh-codex-model-picker",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Codex-style composer model picker for DeepSeek Harness: a card with a draggable reasoning-effort slider, model list, and no provider-default stop.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caidows/dsh-codex-model-picker.git"
+  },
+  "homepage": "https://github.com/caidows/dsh-codex-model-picker#readme",
+  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "model-picker", "reasoning-effort", "codex"],
+  "engines": {
+    "dsh": ">=0.2.2-rc.1"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "client.js", "cordis.patch.yml", "locale/*.json", "icon.svg"],
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dsh": {
+    "bundle": {"patch": "./cordis.patch.yml"},
+    "client": {"platform": "web", "immediately": true}
+  }
+}

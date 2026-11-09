@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Codex model picker",
+    "description": "Replaces the composer model menu with a Codex-style card whose reasoning effort is a draggable slider."
+  }
+}
