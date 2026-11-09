@@ -2,6 +2,10 @@
 
 把 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 输入框的模型选择换成 Codex 风格的卡片：顶部是推理强度，中间是当前模型，底部是一条可拖动的推理强度滑杆。
 
+## 截图
+
+![卡片展开在输入框上方，推理强度滑杆停在 High](assets/screenshot-1.png)
+
 ## 功能
 
 - **Codex 风格卡片**：贴在输入框模型按钮上方，空间不够时自动翻到下方。

@@ -6,6 +6,10 @@ It replaces the composer's model menu with a small card — the reasoning effort
 
 ![icon](assets/icon.png)
 
+## Screenshot
+
+![The picker card open above the composer, with the effort slider on "High"](assets/screenshot-1.png)
+
 ## Features
 
 - **Codex-style card** anchored above the composer model button, flipping below when there is no room.
